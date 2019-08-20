@@ -7,6 +7,13 @@ public:
 	}
 }
 
+class B{
+public:
+	void print(){
+		std::cout<<"Class B"<<std::endl;
+	}
+}
+
 int main(){
 	auto func = [](){
 		std::cout << "this is A"<<std::endl;
